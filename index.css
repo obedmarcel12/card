@@ -24,39 +24,33 @@ main {
   border-top-right-radius: 60px;
   width: 50vw;
   height: 35vh;
-  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9); */
+  position: relative;
 }
 
 .border-red {
   position: relative;
-  left: 0px;
-  border-radius: 50%;
-  background-color: red;
   width: 20vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   height: 20vw;
+  border-radius: 50%;
+}
+
+.border-red1 {
+  background: red;
+}
+.border-red2 {
+  position: relative;
+  right: 100px;
+  background-color: rgb(255, 187, 0);
+  mix-blend-mode: hard-light;
 }
 .border-red img {
   position: absolute;
-  bottom: 55%;
-  right: 32%;
-  inline-size: 17vh;
+  bottom: 42%;
+  right: 26%;
+  inline-size: 28vh;
   color: antiquewhite;
-  border-radius: 15px;
 }
-.border-yellow {
-  position: relative;
-  right: 90px;
-  border-radius: 50%;
-  background-color: rgb(255, 166, 0);
-  width: 20vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 20vw;
-}
+
 .sec2 {
   background-color: rgb(70, 70, 70);
   border-bottom-left-radius: 60px;
@@ -75,13 +69,20 @@ main {
   font-family: sans-serif;
   display: flex;
   flex-direction: column;
-  padding-left: 12%;
+  padding-left: 10%;
   padding-top: 4%;
 }
 .card h1 {
   font-weight: 200;
   font-family: sans-serif;
   color: rgb(178, 176, 176);
+}
+.card h2 {
+  padding-right: 20px;
+  color: rgb(178, 176, 176);
+  font-weight: 500;
+  font-family: sans-serif;
+  padding-right: 50px;
 }
 .star {
   display: flex;
@@ -176,6 +177,7 @@ h3 {
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
     width: 100%;
+    position: relative;
     height: 30vh;
   }
   .sec2 {
@@ -195,35 +197,26 @@ h3 {
 
   .border-red {
     position: relative;
-    left: 0px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    background-color: red;
-    width: 45vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 45vw;
   }
 
-  .border-red img {
-    position: absolute;
-    bottom: 50%;
-    right: 38%;
-    inline-size: 10vh;
-    color: antiquewhite;
-    border-radius: 15px;
+  .border-red1 {
+    background: red;
   }
-
-  .border-yellow {
+  .border-red2 {
     position: relative;
-    right: 70px;
-    border-radius: 50%;
-    background-color: orange;
-    width: 45vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 45vw;
+    right: 72px;
+    background-color: rgb(255, 187, 0);
+    mix-blend-mode: hard-light;
+  }
+  .border-red1 img {
+    position: absolute;
+    bottom: 43%;
+    right: 24%;
+    inline-size: 18vh;
+    color: antiquewhite;
   }
 
   .card {
@@ -239,6 +232,15 @@ h3 {
     font-size: 15px;
     font-family: sans-serif;
     color: rgb(178, 176, 176);
+  }
+
+  .card h2 {
+    padding-right: 20px;
+    color: rgb(178, 176, 176);
+    font-weight: 500;
+    font-family: sans-serif;
+    padding-right: 50px;
+    font-size: 15px;
   }
 
   .star h1 {
