@@ -197,8 +197,8 @@ h3 {
 
   .border-red {
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 50vw;
+    height: 50vw;
     border-radius: 50%;
   }
 
@@ -207,15 +207,15 @@ h3 {
   }
   .border-red2 {
     position: relative;
-    right: 72px;
+    right: 70px;
     background-color: rgb(255, 187, 0);
     mix-blend-mode: hard-light;
   }
   .border-red1 img {
     position: absolute;
     bottom: 43%;
-    right: 24%;
-    inline-size: 18vh;
+    right: 27%;
+    inline-size: 15vh;
     color: antiquewhite;
   }
 
